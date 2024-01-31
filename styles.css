@@ -1,0 +1,208 @@
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Architects Daughter', cursive; 
+}
+
+---HOMEPAGE--->
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+body {
+    background: url(./PIC/Shinchan\ Cover\ Page.jpeg);
+    height: 100vh;
+    -webkit-animation-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li {
+    display: inline-block;
+}
+.nav-area li a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 14px;
+}
+.nav-area li a:hover {
+    background: #FFF;
+    color: #333;
+}
+.logo img {
+    width: 100px;
+    height: auto;
+    float: left;
+}
+.welcome-text {
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    margin: 15% 30%;
+    text-align: center;
+}
+.welcome-text h1 {
+    text-align: center;
+    color: #000;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+footer {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    margin: 5% 30%;
+    text-align: center;
+}
+
+---ABOUTPAGE--->
+
+#items {
+    margin: 0;
+    display: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .bubble {
+    position: relative;
+    width: 750px;
+    padding:40px;
+    background: #FFF;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+.container .bubble:before {
+    content: "";
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,0.2);
+    z-index: 2;
+    pointer-events: none;
+}
+.container .bubble .icon {
+    position: relative;
+    width: 80px;
+    height: auto;
+    color: #FFF;
+    background: #607274;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1st;
+}
+.container .bubble .content h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+}
+.container .bubble .content p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #FFF;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+---CHARACTERSPAGE--->
+
+.table-box {
+    margin: 50px auto;
+}
+#group-pic {
+    margin: 10px auto;
+    width: 600px;
+    border: 1px solid black;
+    display: block;
+}
+img {
+    border: none;
+    width: 100px
+}
+.table-row {
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: 'Kanit', sans-serif;
+    background: whitesmoke;
+    padding: 20px 0;
+    color: #555;
+    font-size: 15px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+}
+.table-cell {
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    vertical-align: middle;
+}
+.table-head {
+    background-color: black;
+    box-shadow: none;
+    color: #FFF;
+    font-weight: 600;
+}
+.first-cell {
+    text-align: left;
+    padding-left: 10px;
+}
+.last-cell {
+    text-align: right;
+    padding-right: 10px;
+}
+
+---CONTACTPAGE--->
+
+.heading {
+    color: #A09BC2;
+    text-align: center;
+}
+.center {
+    text-align: center;
+    color: #94A685;
+}
+.box {
+    padding: 10px 10px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+    width: 600px;
+    display: block;
+}
